@@ -1,0 +1,205 @@
+/********************
+	ZHANG LAB STYLE SHEET
+********************/
+/********************
+	Structure
+********************/
+body {
+	background: #DFDFDF;
+	/*background: #252525; med school */
+	font-family: verdana, helvetica, arial;
+	font-size: 12px;
+	line-height: 1.6em;
+}
+#page {
+	background: white;
+	border: 1px solid #C1C1C1;
+	position: relative;
+	width: 600px;
+	height: auto;
+	margin: 20px auto 50px auto;
+	padding: 0px 50px 150px 50px;
+}
+#footer {
+	position: relative;
+		top: -40px;
+	width: 700px;
+	height: 50px;
+	margin: 5px auto;
+}
+.small-text {
+	font-family: verdana, helvetica, arial;
+	color: #252525; /* should match 'a.small-link' */
+	font-size: 10px;
+	line-height: .5em;
+}
+#yale-cell {
+	position: relative;
+		top: -8px;
+}
+#credit {
+	text-align: right;
+}
+/********************
+	Navi
+********************/
+#logo, #logo-link {
+	height: 88px;
+	width: 600px;
+	padding: 40px 25px 50px 25px;
+	position: relative;
+		right: 25px;
+		top: 25px;
+}
+#logo-link {
+	display: block;
+}
+/********************
+	Menu
+********************/
+#menu-container{
+	background: #252525;
+	height: 30px;
+	width: 600px;
+	position: relative;
+		right: 25px;
+		top: 26px; /* creates thin line between blue and brown navis */
+	padding: 0px 25px 0px 25px;
+}
+#menu * {
+	display: inline; /* horizontal list */
+	list-style-type: none; /* no markers, i.e. circles, squares &c. */
+	list-style-position: outside;
+}
+#menu {
+	position: relative;
+		top: 3px;
+	margin: 0em 0em 0em -3em; /* fixes list item indention */
+	text-align: justify; /* justifies text, but <span> will be too wide (100%), thus creating a new line */
+}
+#menu span {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	height: 0px;
+}
+#menu li {
+	position: relative;
+		top: 1px;
+}
+/********************
+	Content
+********************/
+h1 {
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 12px;
+	color: #202020;
+	margin: 0px 0px 2px 0px;
+}
+.images-sized {
+	border: 20px solid white;
+	width: 560px;
+	margin: 0px 0px 20px 0px;
+}
+.images-general {
+	border: 20px solid white;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.column {
+	width: 300px;
+}
+.italic {
+	font-style: italic;
+}
+#right-column{
+	position: relative;
+		left: 300px;
+		top: -364px;
+}
+#content {
+	position: relative;
+		top: 75px;
+	color: #202020;
+}
+p.panel {
+	display: none;
+}
+p.caption {
+	font-family: verdana, helvetica, arial;
+	font-size: 10px;
+	line-height: 1.2em;
+	color: #484848;
+}
+p.pubnumb {
+	font-family: verdana, helvetica, arial;
+	font-size: 11px;
+	color: #484848;
+}
+table.pub-table,td,th {
+	vertical-align: top;
+	font-family: verdana, helvetica, arial;
+	font-size: 13px;
+	line-height: 1.6em;
+	padding-top: 5px;
+}
+/********************
+	Links
+********************/
+a.menulink:link, a.menulink:visited {
+	font-family: verdana, arial;
+	color: white;
+	font-size: 13px;
+	text-decoration: none;
+}
+a.menulink:hover {
+	color: #FF7F00;
+}
+a.link:link, a.link:visited {
+	font-family: verdana, arial;
+	color: #202020;
+	font-size: 13px;
+	text-decoration: none;
+	border-bottom: 1px solid #A8A8A8;
+}
+a.link:hover {
+	color: #FF7F00;
+	border-bottom-color: #FF7F00;
+}
+a.email:link, a.email:visited {
+	font-family: verdana, arial;
+	color: #202020;
+	font-size: 13px;
+	text-decoration: none;
+	border-bottom: 1px solid #A8A8A8;
+}
+a.email:hover {
+	color: #FF7F00;
+	border-bottom: 1px solid #FF7F00;
+}
+a.small-link:link, a.small-link:visited {
+	color: #252525;
+	font-size: 10px;
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	border-bottom-color: #252525;
+}
+a.small-link:hover {
+	color: #787878;
+	border-bottom-color: #787878;
+}
+a.pub-link:link, a.pub-link:visited {
+	color: #202020;
+	font-style: italic;
+	text-decoration: none;
+	border-bottom: 1px solid #A8A8A8;
+}
+a.pub-link:hover {
+	color: #FF7F00;
+	border-bottom: 1px solid #FF7F00;
+}
